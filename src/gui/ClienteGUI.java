@@ -45,7 +45,7 @@ public class ClienteGUI extends JFrame {
                 return;
             }
 
-            // Desabilita o botão para não iniciar duas vezes
+            // Desabilita o botão para não processar duas vezes
             startButton.setEnabled(false);
             keywordField.setEnabled(false);
 
@@ -59,8 +59,7 @@ public class ClienteGUI extends JFrame {
         DashboardGUI dashboardGUI = new DashboardGUI();
         dashboardGUI.setVisible(true);
 
-        // A lógica da aplicação principal é iniciada em uma nova thread
-        // para não congelar a GUI do Cliente.
+        // A lógica da aplicação principal é iniciada em uma nova thread para não congelar a GUI do Cliente
         ClienteApp clienteApp = new ClienteApp();
         new Thread(() -> clienteApp.startApplication(keywords, dashboardGUI)).start();
     }

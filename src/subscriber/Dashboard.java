@@ -16,7 +16,7 @@ public class Dashboard implements Runnable {
 
     public Dashboard(DashboardGUI dashboardGUI, List<String> keywords) {
         this.dashboardGUI = dashboardGUI;
-        // Inicializa as estatísticas com 0 para todas as palavras-chave
+        // Inicializa as estatísticas com 0 para todas as palavras-chave passadas
         for (String keyword : keywords) {
             estatisticas.put(keyword.trim(), 0);
         }
@@ -38,7 +38,7 @@ public class Dashboard implements Runnable {
 
             subscriber.setMessageListener(message -> {
                 try {
-                     if (message.propertyExists("finalizado") && message.getBooleanProperty("finalizado")) {
+                    if (message.propertyExists("finalizado") && message.getBooleanProperty("finalizado")) {
                         dashboardGUI.appendLog("Dashboard recebeu sinal de finalização de contagem.");
                         finalizacaoLatch.countDown(); // Libera a thread principal do Dashboard
                         return;
@@ -81,7 +81,7 @@ public class Dashboard implements Runnable {
         StringBuilder sb = new StringBuilder();
         sb.append("--- CONTAGEM ATUAL ---\n");
         estatisticas.forEach((palavra, total) ->
-            sb.append(String.format("Palavra: %s | Total: %d\n", palavra, total))
+                sb.append(String.format("Palavra: %s | Total: %d\n", palavra, total))
         );
         sb.append("----------------------");
         dashboardGUI.setResults(sb.toString());

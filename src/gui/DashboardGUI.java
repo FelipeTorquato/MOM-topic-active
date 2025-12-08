@@ -4,6 +4,7 @@ import javax.swing.*;
 import javax.swing.border.TitledBorder;
 import java.awt.*;
 
+// Interface de Dashboard
 public class DashboardGUI extends JFrame {
 
     private final JTextArea logArea;
@@ -17,13 +18,13 @@ public class DashboardGUI extends JFrame {
         setLocationRelativeTo(null);
         setLayout(new BorderLayout(10, 10));
 
-        // Área de Log Principal
+        // Área de log principal
         logArea = new JTextArea();
         logArea.setEditable(false);
         JScrollPane logScrollPane = new JScrollPane(logArea);
         logScrollPane.setBorder(new TitledBorder("Logs de Atividade (Workers e Leitores)"));
 
-        // Painel para Informações e Resultados
+        // Painel para informações e resultados
         JPanel infoPanel = new JPanel(new GridLayout(1, 2, 10, 0));
 
         // Área de Informações de Fila e Tópico
@@ -33,7 +34,7 @@ public class DashboardGUI extends JFrame {
         queueTopicScrollPane.setBorder(new TitledBorder("Status (FILA_LINHAS e TOPICO_CONTAGEM)"));
         infoPanel.add(queueTopicScrollPane);
 
-        // Área de Resultados Finais
+        // Área de resultados finais
         resultsArea = new JTextArea();
         resultsArea.setEditable(false);
         JScrollPane resultsScrollPane = new JScrollPane(resultsArea);

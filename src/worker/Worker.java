@@ -79,7 +79,7 @@ public class Worker implements Runnable {
             return 0;
         }
         int count = 0;
-        String[] tokens = texto.split("\\W+"); // Split por não-palavras (word boundaries)
+        String[] tokens = texto.split("\\W+"); // Split por não-palavras
         for (String t : tokens) {
             if (t.equalsIgnoreCase(palavra.trim())) {
                 count++;
