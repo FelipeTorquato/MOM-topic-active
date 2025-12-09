@@ -60,8 +60,8 @@ public class ClienteApp {
             dashboardGUI.appendLog("Leitores de arquivo finalizaram o trabalho.");
 
             // Enviar "Poison Pill" para os workers
-            enviarPoisonPills(dashboardGUI);
-            dashboardGUI.appendLog("Sinal de finalização enviado para os Workers.");
+//            enviarPoisonPills(dashboardGUI);
+//            dashboardGUI.appendLog("Sinal de finalização enviado para os Workers.");
 
             // Aguardar finalização dos workers
             for (Thread workerThread : workerThreads) {
@@ -82,18 +82,18 @@ public class ClienteApp {
             dashboardGUI.appendLog("ERRO: " + e.getMessage());
         }
     }
-
-    private void enviarPoisonPills(DashboardGUI dashboardGUI) throws JMSException {
-        ConnectionFactory factory = JmsConfig.getConnectionFactory();
-        try (Connection connection = factory.createConnection();
-             Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE)) {
-            Destination destination = session.createQueue(JmsConfig.QUEUE_LINHAS);
-            MessageProducer producer = session.createProducer(destination);
-            for (int i = 0; i < NUM_WORKERS; i++) {
-                producer.send(session.createTextMessage("POISON_PILL"));
-            }
-        }
-    }
+//
+//    private void enviarPoisonPills(DashboardGUI dashboardGUI) throws JMSException {
+//        ConnectionFactory factory = JmsConfig.getConnectionFactory();
+//        try (Connection connection = factory.createConnection();
+//             Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE)) {
+//            Destination destination = session.createQueue(JmsConfig.QUEUE_LINHAS);
+//            MessageProducer producer = session.createProducer(destination);
+//            for (int i = 0; i < NUM_WORKERS; i++) {
+//                producer.send(session.createTextMessage("POISON_PILL"));
+//            }
+//        }
+//    }
 
     private void enviarMensagemFinalizacaoDashboard() throws JMSException {
         ConnectionFactory factory = JmsConfig.getConnectionFactory();

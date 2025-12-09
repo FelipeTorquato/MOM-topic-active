@@ -44,10 +44,10 @@ public class Worker implements Runnable {
                 if (message instanceof TextMessage) {
                     String linha = ((TextMessage) message).getText();
 
-                    if ("POISON_PILL".equals(linha)) {
-                        dashboardGUI.appendLog("Worker " + workerId + " recebeu o sinal de finalização.");
-                        break; // Sai do loop
-                    }
+//                    if ("POISON_PILL".equals(linha)) {
+//                        dashboardGUI.appendLog("Worker " + workerId + " recebeu o sinal de finalização.");
+//                        break; // Sai do loop
+//                    }
 
                     for (String chave : palavrasChave) {
                         int ocorrencias = contarOcorrencias(linha, chave.trim());
