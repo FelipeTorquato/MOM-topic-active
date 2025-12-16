@@ -1,0 +1,170 @@
+Apache ActiveMQ é um message broker de código-fonte aberto escrito em Java, juntamente com um cliente completo de Java Message Service (JMS).
+Ele fornece "recursos empresariais", ou seja, promove a comunicação de mais de um cliente ou servidor.
+Clientes suportados incluem Java via JMS 1.1 bem como vários outros clientes "multilinguagem".
+A comunicação é gerida com recursos como clusters computacionais e a capacidade de utilizar qualquer banco de dados como um fornecedor de persistência JMS, além de memória virtual, cache, e persistência de logs.
+O projeto ActiveMQ foi originalmente criado por seus fundadores da LogicBlaze em 2004, como um message broker de código aberto, hospedado pela CodeHaus.
+O código e a marca registrada ActiveMQ foram doados à Apache Software Foundation em 2007, sendo que os fundadores continuaram a desenvolver o código-base com a comunidade estendida Apache.
+ActiveMQ emprega vários modos para alta disponibilidade, incluindo ambos mecanismos de bloqueio de sistema de arquivos e de banco de dados a nível de linha, compartilhamento de armazenamento de persistência, através de um sistema de arquivos compartilhado, ou replicação real usando o Apache ZooKeeper.
+Um mecanismo robusto de escalamento horizontal, chamado de Network of Brokers,[4] também é suportado.
+No ramo empresarial, o ActiveMQ é celebrado por sua flexibilidade de configuração, e o seu suporte para um número relativamente grande de protocolos de transporte, incluindo OpenWire, Stomp, MQTT, AMQP, REST e WebSockets.
+ActiveMQ é usado em implementações de barramento de serviço corporativo, tais como o Apache ServiceMix e Mule.
+Outros projetos usando ActiveMQ incluem o Apache Camel e Apache CXF em projetos de infra-estrutura SOA.
+Coincidindo com o lançamento do Apache ActiveMQ 5.3, os primeiros resultados mundiais para as referências do padrão industrial SPECjms2007 foram anunciados.
+Quatro resultados foram submetidos à Standard Performance Evaluation Corporation (SPEC) e aceitos para publicação.
+Os resultados abrangem diferentes topologias para analisar a escalabilidade do Apache ActiveMQ em duas dimensões.
+ActiveMQ está atualmente na versão principal 5, versão secundária 15.
+A versão 6, chamada ActiveMQ Artemis, é uma reescrita completa do ActiveMQ 5, incorporando a doação do código base HornetQ da Red Hat, e trazendo a implementação JMS do broker à especificação 2.0.
+Assim, a Red Hat tem controle substancial do projeto devido à sua antiga propriedade do código-base.
+Apache ActiveMQ é um message broker de código-fonte aberto escrito em Java, juntamente com um cliente completo de Java Message Service (JMS).
+Ele fornece "recursos empresariais", ou seja, promove a comunicação de mais de um cliente ou servidor.
+Clientes suportados incluem Java via JMS 1.1 bem como vários outros clientes "multilinguagem".
+A comunicação é gerida com recursos como clusters computacionais e a capacidade de utilizar qualquer banco de dados como um fornecedor de persistência JMS, além de memória virtual, cache, e persistência de logs.
+O projeto ActiveMQ foi originalmente criado por seus fundadores da LogicBlaze em 2004, como um message broker de código aberto, hospedado pela CodeHaus.
+O código e a marca registrada ActiveMQ foram doados à Apache Software Foundation em 2007, sendo que os fundadores continuaram a desenvolver o código-base com a comunidade estendida Apache.
+ActiveMQ emprega vários modos para alta disponibilidade, incluindo ambos mecanismos de bloqueio de sistema de arquivos e de banco de dados a nível de linha, compartilhamento de armazenamento de persistência, através de um sistema de arquivos compartilhado, ou replicação real usando o Apache ZooKeeper.
+Um mecanismo robusto de escalamento horizontal, chamado de Network of Brokers,[4] também é suportado.
+No ramo empresarial, o ActiveMQ é celebrado por sua flexibilidade de configuração, e o seu suporte para um número relativamente grande de protocolos de transporte, incluindo OpenWire, Stomp, MQTT, AMQP, REST e WebSockets.
+ActiveMQ é usado em implementações de barramento de serviço corporativo, tais como o Apache ServiceMix e Mule.
+Outros projetos usando ActiveMQ incluem o Apache Camel e Apache CXF em projetos de infra-estrutura SOA.
+Coincidindo com o lançamento do Apache ActiveMQ 5.3, os primeiros resultados mundiais para as referências do padrão industrial SPECjms2007 foram anunciados.
+Quatro resultados foram submetidos à Standard Performance Evaluation Corporation (SPEC) e aceitos para publicação.
+Os resultados abrangem diferentes topologias para analisar a escalabilidade do Apache ActiveMQ em duas dimensões.
+ActiveMQ está atualmente na versão principal 5, versão secundária 15.
+A versão 6, chamada ActiveMQ Artemis, é uma reescrita completa do ActiveMQ 5, incorporando a doação do código base HornetQ da Red Hat, e trazendo a implementação JMS do broker à especificação 2.0.
+Assim, a Red Hat tem controle substancial do projeto devido à sua antiga propriedade do código-base.
+Apache ActiveMQ é um message broker de código-fonte aberto escrito em Java, juntamente com um cliente completo de Java Message Service (JMS).
+Ele fornece "recursos empresariais", ou seja, promove a comunicação de mais de um cliente ou servidor.
+Clientes suportados incluem Java via JMS 1.1 bem como vários outros clientes "multilinguagem".
+A comunicação é gerida com recursos como clusters computacionais e a capacidade de utilizar qualquer banco de dados como um fornecedor de persistência JMS, além de memória virtual, cache, e persistência de logs.
+O projeto ActiveMQ foi originalmente criado por seus fundadores da LogicBlaze em 2004, como um message broker de código aberto, hospedado pela CodeHaus.
+O código e a marca registrada ActiveMQ foram doados à Apache Software Foundation em 2007, sendo que os fundadores continuaram a desenvolver o código-base com a comunidade estendida Apache.
+ActiveMQ emprega vários modos para alta disponibilidade, incluindo ambos mecanismos de bloqueio de sistema de arquivos e de banco de dados a nível de linha, compartilhamento de armazenamento de persistência, através de um sistema de arquivos compartilhado, ou replicação real usando o Apache ZooKeeper.
+Um mecanismo robusto de escalamento horizontal, chamado de Network of Brokers,[4] também é suportado.
+No ramo empresarial, o ActiveMQ é celebrado por sua flexibilidade de configuração, e o seu suporte para um número relativamente grande de protocolos de transporte, incluindo OpenWire, Stomp, MQTT, AMQP, REST e WebSockets.
+ActiveMQ é usado em implementações de barramento de serviço corporativo, tais como o Apache ServiceMix e Mule.
+Outros projetos usando ActiveMQ incluem o Apache Camel e Apache CXF em projetos de infra-estrutura SOA.
+Coincidindo com o lançamento do Apache ActiveMQ 5.3, os primeiros resultados mundiais para as referências do padrão industrial SPECjms2007 foram anunciados.
+Quatro resultados foram submetidos à Standard Performance Evaluation Corporation (SPEC) e aceitos para publicação.
+Os resultados abrangem diferentes topologias para analisar a escalabilidade do Apache ActiveMQ em duas dimensões.
+ActiveMQ está atualmente na versão principal 5, versão secundária 15.
+A versão 6, chamada ActiveMQ Artemis, é uma reescrita completa do ActiveMQ 5, incorporando a doação do código base HornetQ da Red Hat, e trazendo a implementação JMS do broker à especificação 2.0.
+Assim, a Red Hat tem controle substancial do projeto devido à sua antiga propriedade do código-base.
+Apache ActiveMQ é um message broker de código-fonte aberto escrito em Java, juntamente com um cliente completo de Java Message Service (JMS).
+Ele fornece "recursos empresariais", ou seja, promove a comunicação de mais de um cliente ou servidor.
+Clientes suportados incluem Java via JMS 1.1 bem como vários outros clientes "multilinguagem".
+A comunicação é gerida com recursos como clusters computacionais e a capacidade de utilizar qualquer banco de dados como um fornecedor de persistência JMS, além de memória virtual, cache, e persistência de logs.
+O projeto ActiveMQ foi originalmente criado por seus fundadores da LogicBlaze em 2004, como um message broker de código aberto, hospedado pela CodeHaus.
+O código e a marca registrada ActiveMQ foram doados à Apache Software Foundation em 2007, sendo que os fundadores continuaram a desenvolver o código-base com a comunidade estendida Apache.
+ActiveMQ emprega vários modos para alta disponibilidade, incluindo ambos mecanismos de bloqueio de sistema de arquivos e de banco de dados a nível de linha, compartilhamento de armazenamento de persistência, através de um sistema de arquivos compartilhado, ou replicação real usando o Apache ZooKeeper.
+Um mecanismo robusto de escalamento horizontal, chamado de Network of Brokers,[4] também é suportado.
+No ramo empresarial, o ActiveMQ é celebrado por sua flexibilidade de configuração, e o seu suporte para um número relativamente grande de protocolos de transporte, incluindo OpenWire, Stomp, MQTT, AMQP, REST e WebSockets.
+ActiveMQ é usado em implementações de barramento de serviço corporativo, tais como o Apache ServiceMix e Mule.
+Outros projetos usando ActiveMQ incluem o Apache Camel e Apache CXF em projetos de infra-estrutura SOA.
+Coincidindo com o lançamento do Apache ActiveMQ 5.3, os primeiros resultados mundiais para as referências do padrão industrial SPECjms2007 foram anunciados.
+Quatro resultados foram submetidos à Standard Performance Evaluation Corporation (SPEC) e aceitos para publicação.
+Os resultados abrangem diferentes topologias para analisar a escalabilidade do Apache ActiveMQ em duas dimensões.
+ActiveMQ está atualmente na versão principal 5, versão secundária 15.
+A versão 6, chamada ActiveMQ Artemis, é uma reescrita completa do ActiveMQ 5, incorporando a doação do código base HornetQ da Red Hat, e trazendo a implementação JMS do broker à especificação 2.0.
+Assim, a Red Hat tem controle substancial do projeto devido à sua antiga propriedade do código-base.
+Apache ActiveMQ é um message broker de código-fonte aberto escrito em Java, juntamente com um cliente completo de Java Message Service (JMS).
+Ele fornece "recursos empresariais", ou seja, promove a comunicação de mais de um cliente ou servidor.
+Clientes suportados incluem Java via JMS 1.1 bem como vários outros clientes "multilinguagem".
+A comunicação é gerida com recursos como clusters computacionais e a capacidade de utilizar qualquer banco de dados como um fornecedor de persistência JMS, além de memória virtual, cache, e persistência de logs.
+O projeto ActiveMQ foi originalmente criado por seus fundadores da LogicBlaze em 2004, como um message broker de código aberto, hospedado pela CodeHaus.
+O código e a marca registrada ActiveMQ foram doados à Apache Software Foundation em 2007, sendo que os fundadores continuaram a desenvolver o código-base com a comunidade estendida Apache.
+ActiveMQ emprega vários modos para alta disponibilidade, incluindo ambos mecanismos de bloqueio de sistema de arquivos e de banco de dados a nível de linha, compartilhamento de armazenamento de persistência, através de um sistema de arquivos compartilhado, ou replicação real usando o Apache ZooKeeper.
+Um mecanismo robusto de escalamento horizontal, chamado de Network of Brokers,[4] também é suportado.
+No ramo empresarial, o ActiveMQ é celebrado por sua flexibilidade de configuração, e o seu suporte para um número relativamente grande de protocolos de transporte, incluindo OpenWire, Stomp, MQTT, AMQP, REST e WebSockets.
+ActiveMQ é usado em implementações de barramento de serviço corporativo, tais como o Apache ServiceMix e Mule.
+Outros projetos usando ActiveMQ incluem o Apache Camel e Apache CXF em projetos de infra-estrutura SOA.
+Coincidindo com o lançamento do Apache ActiveMQ 5.3, os primeiros resultados mundiais para as referências do padrão industrial SPECjms2007 foram anunciados.
+Quatro resultados foram submetidos à Standard Performance Evaluation Corporation (SPEC) e aceitos para publicação.
+Os resultados abrangem diferentes topologias para analisar a escalabilidade do Apache ActiveMQ em duas dimensões.
+ActiveMQ está atualmente na versão principal 5, versão secundária 15.
+A versão 6, chamada ActiveMQ Artemis, é uma reescrita completa do ActiveMQ 5, incorporando a doação do código base HornetQ da Red Hat, e trazendo a implementação JMS do broker à especificação 2.0.
+Assim, a Red Hat tem controle substancial do projeto devido à sua antiga propriedade do código-base.
+Apache ActiveMQ é um message broker de código-fonte aberto escrito em Java, juntamente com um cliente completo de Java Message Service (JMS).
+Ele fornece "recursos empresariais", ou seja, promove a comunicação de mais de um cliente ou servidor.
+Clientes suportados incluem Java via JMS 1.1 bem como vários outros clientes "multilinguagem".
+A comunicação é gerida com recursos como clusters computacionais e a capacidade de utilizar qualquer banco de dados como um fornecedor de persistência JMS, além de memória virtual, cache, e persistência de logs.
+O projeto ActiveMQ foi originalmente criado por seus fundadores da LogicBlaze em 2004, como um message broker de código aberto, hospedado pela CodeHaus.
+O código e a marca registrada ActiveMQ foram doados à Apache Software Foundation em 2007, sendo que os fundadores continuaram a desenvolver o código-base com a comunidade estendida Apache.
+ActiveMQ emprega vários modos para alta disponibilidade, incluindo ambos mecanismos de bloqueio de sistema de arquivos e de banco de dados a nível de linha, compartilhamento de armazenamento de persistência, através de um sistema de arquivos compartilhado, ou replicação real usando o Apache ZooKeeper.
+Um mecanismo robusto de escalamento horizontal, chamado de Network of Brokers,[4] também é suportado.
+No ramo empresarial, o ActiveMQ é celebrado por sua flexibilidade de configuração, e o seu suporte para um número relativamente grande de protocolos de transporte, incluindo OpenWire, Stomp, MQTT, AMQP, REST e WebSockets.
+ActiveMQ é usado em implementações de barramento de serviço corporativo, tais como o Apache ServiceMix e Mule.
+Outros projetos usando ActiveMQ incluem o Apache Camel e Apache CXF em projetos de infra-estrutura SOA.
+Coincidindo com o lançamento do Apache ActiveMQ 5.3, os primeiros resultados mundiais para as referências do padrão industrial SPECjms2007 foram anunciados.
+Quatro resultados foram submetidos à Standard Performance Evaluation Corporation (SPEC) e aceitos para publicação.
+Os resultados abrangem diferentes topologias para analisar a escalabilidade do Apache ActiveMQ em duas dimensões.
+ActiveMQ está atualmente na versão principal 5, versão secundária 15.
+A versão 6, chamada ActiveMQ Artemis, é uma reescrita completa do ActiveMQ 5, incorporando a doação do código base HornetQ da Red Hat, e trazendo a implementação JMS do broker à especificação 2.0.
+Assim, a Red Hat tem controle substancial do projeto devido à sua antiga propriedade do código-base.
+Apache ActiveMQ é um message broker de código-fonte aberto escrito em Java, juntamente com um cliente completo de Java Message Service (JMS).
+Ele fornece "recursos empresariais", ou seja, promove a comunicação de mais de um cliente ou servidor.
+Clientes suportados incluem Java via JMS 1.1 bem como vários outros clientes "multilinguagem".
+A comunicação é gerida com recursos como clusters computacionais e a capacidade de utilizar qualquer banco de dados como um fornecedor de persistência JMS, além de memória virtual, cache, e persistência de logs.
+O projeto ActiveMQ foi originalmente criado por seus fundadores da LogicBlaze em 2004, como um message broker de código aberto, hospedado pela CodeHaus.
+O código e a marca registrada ActiveMQ foram doados à Apache Software Foundation em 2007, sendo que os fundadores continuaram a desenvolver o código-base com a comunidade estendida Apache.
+ActiveMQ emprega vários modos para alta disponibilidade, incluindo ambos mecanismos de bloqueio de sistema de arquivos e de banco de dados a nível de linha, compartilhamento de armazenamento de persistência, através de um sistema de arquivos compartilhado, ou replicação real usando o Apache ZooKeeper.
+Um mecanismo robusto de escalamento horizontal, chamado de Network of Brokers,[4] também é suportado.
+No ramo empresarial, o ActiveMQ é celebrado por sua flexibilidade de configuração, e o seu suporte para um número relativamente grande de protocolos de transporte, incluindo OpenWire, Stomp, MQTT, AMQP, REST e WebSockets.
+ActiveMQ é usado em implementações de barramento de serviço corporativo, tais como o Apache ServiceMix e Mule.
+Outros projetos usando ActiveMQ incluem o Apache Camel e Apache CXF em projetos de infra-estrutura SOA.
+Coincidindo com o lançamento do Apache ActiveMQ 5.3, os primeiros resultados mundiais para as referências do padrão industrial SPECjms2007 foram anunciados.
+Quatro resultados foram submetidos à Standard Performance Evaluation Corporation (SPEC) e aceitos para publicação.
+Os resultados abrangem diferentes topologias para analisar a escalabilidade do Apache ActiveMQ em duas dimensões.
+ActiveMQ está atualmente na versão principal 5, versão secundária 15.
+A versão 6, chamada ActiveMQ Artemis, é uma reescrita completa do ActiveMQ 5, incorporando a doação do código base HornetQ da Red Hat, e trazendo a implementação JMS do broker à especificação 2.0.
+Assim, a Red Hat tem controle substancial do projeto devido à sua antiga propriedade do código-base.
+Apache ActiveMQ é um message broker de código-fonte aberto escrito em Java, juntamente com um cliente completo de Java Message Service (JMS).
+Ele fornece "recursos empresariais", ou seja, promove a comunicação de mais de um cliente ou servidor.
+Clientes suportados incluem Java via JMS 1.1 bem como vários outros clientes "multilinguagem".
+A comunicação é gerida com recursos como clusters computacionais e a capacidade de utilizar qualquer banco de dados como um fornecedor de persistência JMS, além de memória virtual, cache, e persistência de logs.
+O projeto ActiveMQ foi originalmente criado por seus fundadores da LogicBlaze em 2004, como um message broker de código aberto, hospedado pela CodeHaus.
+O código e a marca registrada ActiveMQ foram doados à Apache Software Foundation em 2007, sendo que os fundadores continuaram a desenvolver o código-base com a comunidade estendida Apache.
+ActiveMQ emprega vários modos para alta disponibilidade, incluindo ambos mecanismos de bloqueio de sistema de arquivos e de banco de dados a nível de linha, compartilhamento de armazenamento de persistência, através de um sistema de arquivos compartilhado, ou replicação real usando o Apache ZooKeeper.
+Um mecanismo robusto de escalamento horizontal, chamado de Network of Brokers,[4] também é suportado.
+No ramo empresarial, o ActiveMQ é celebrado por sua flexibilidade de configuração, e o seu suporte para um número relativamente grande de protocolos de transporte, incluindo OpenWire, Stomp, MQTT, AMQP, REST e WebSockets.
+ActiveMQ é usado em implementações de barramento de serviço corporativo, tais como o Apache ServiceMix e Mule.
+Outros projetos usando ActiveMQ incluem o Apache Camel e Apache CXF em projetos de infra-estrutura SOA.
+Coincidindo com o lançamento do Apache ActiveMQ 5.3, os primeiros resultados mundiais para as referências do padrão industrial SPECjms2007 foram anunciados.
+Quatro resultados foram submetidos à Standard Performance Evaluation Corporation (SPEC) e aceitos para publicação.
+Os resultados abrangem diferentes topologias para analisar a escalabilidade do Apache ActiveMQ em duas dimensões.
+ActiveMQ está atualmente na versão principal 5, versão secundária 15.
+A versão 6, chamada ActiveMQ Artemis, é uma reescrita completa do ActiveMQ 5, incorporando a doação do código base HornetQ da Red Hat, e trazendo a implementação JMS do broker à especificação 2.0.
+Assim, a Red Hat tem controle substancial do projeto devido à sua antiga propriedade do código-base.
+Apache ActiveMQ é um message broker de código-fonte aberto escrito em Java, juntamente com um cliente completo de Java Message Service (JMS).
+Ele fornece "recursos empresariais", ou seja, promove a comunicação de mais de um cliente ou servidor.
+Clientes suportados incluem Java via JMS 1.1 bem como vários outros clientes "multilinguagem".
+A comunicação é gerida com recursos como clusters computacionais e a capacidade de utilizar qualquer banco de dados como um fornecedor de persistência JMS, além de memória virtual, cache, e persistência de logs.
+O projeto ActiveMQ foi originalmente criado por seus fundadores da LogicBlaze em 2004, como um message broker de código aberto, hospedado pela CodeHaus.
+O código e a marca registrada ActiveMQ foram doados à Apache Software Foundation em 2007, sendo que os fundadores continuaram a desenvolver o código-base com a comunidade estendida Apache.
+ActiveMQ emprega vários modos para alta disponibilidade, incluindo ambos mecanismos de bloqueio de sistema de arquivos e de banco de dados a nível de linha, compartilhamento de armazenamento de persistência, através de um sistema de arquivos compartilhado, ou replicação real usando o Apache ZooKeeper.
+Um mecanismo robusto de escalamento horizontal, chamado de Network of Brokers,[4] também é suportado.
+No ramo empresarial, o ActiveMQ é celebrado por sua flexibilidade de configuração, e o seu suporte para um número relativamente grande de protocolos de transporte, incluindo OpenWire, Stomp, MQTT, AMQP, REST e WebSockets.
+ActiveMQ é usado em implementações de barramento de serviço corporativo, tais como o Apache ServiceMix e Mule.
+Outros projetos usando ActiveMQ incluem o Apache Camel e Apache CXF em projetos de infra-estrutura SOA.
+Coincidindo com o lançamento do Apache ActiveMQ 5.3, os primeiros resultados mundiais para as referências do padrão industrial SPECjms2007 foram anunciados.
+Quatro resultados foram submetidos à Standard Performance Evaluation Corporation (SPEC) e aceitos para publicação.
+Os resultados abrangem diferentes topologias para analisar a escalabilidade do Apache ActiveMQ em duas dimensões.
+ActiveMQ está atualmente na versão principal 5, versão secundária 15.
+A versão 6, chamada ActiveMQ Artemis, é uma reescrita completa do ActiveMQ 5, incorporando a doação do código base HornetQ da Red Hat, e trazendo a implementação JMS do broker à especificação 2.0.
+Assim, a Red Hat tem controle substancial do projeto devido à sua antiga propriedade do código-base.
+Apache ActiveMQ é um message broker de código-fonte aberto escrito em Java, juntamente com um cliente completo de Java Message Service (JMS).
+Ele fornece "recursos empresariais", ou seja, promove a comunicação de mais de um cliente ou servidor.
+Clientes suportados incluem Java via JMS 1.1 bem como vários outros clientes "multilinguagem".
+A comunicação é gerida com recursos como clusters computacionais e a capacidade de utilizar qualquer banco de dados como um fornecedor de persistência JMS, além de memória virtual, cache, e persistência de logs.
+O projeto ActiveMQ foi originalmente criado por seus fundadores da LogicBlaze em 2004, como um message broker de código aberto, hospedado pela CodeHaus.
+O código e a marca registrada ActiveMQ foram doados à Apache Software Foundation em 2007, sendo que os fundadores continuaram a desenvolver o código-base com a comunidade estendida Apache.
+ActiveMQ emprega vários modos para alta disponibilidade, incluindo ambos mecanismos de bloqueio de sistema de arquivos e de banco de dados a nível de linha, compartilhamento de armazenamento de persistência, através de um sistema de arquivos compartilhado, ou replicação real usando o Apache ZooKeeper.
+Um mecanismo robusto de escalamento horizontal, chamado de Network of Brokers,[4] também é suportado.
+No ramo empresarial, o ActiveMQ é celebrado por sua flexibilidade de configuração, e o seu suporte para um número relativamente grande de protocolos de transporte, incluindo OpenWire, Stomp, MQTT, AMQP, REST e WebSockets.
+ActiveMQ é usado em implementações de barramento de serviço corporativo, tais como o Apache ServiceMix e Mule.
+Outros projetos usando ActiveMQ incluem o Apache Camel e Apache CXF em projetos de infra-estrutura SOA.
+Coincidindo com o lançamento do Apache ActiveMQ 5.3, os primeiros resultados mundiais para as referências do padrão industrial SPECjms2007 foram anunciados.
+Quatro resultados foram submetidos à Standard Performance Evaluation Corporation (SPEC) e aceitos para publicação.
+Os resultados abrangem diferentes topologias para analisar a escalabilidade do Apache ActiveMQ em duas dimensões.
+ActiveMQ está atualmente na versão principal 5, versão secundária 15.
+A versão 6, chamada ActiveMQ Artemis, é uma reescrita completa do ActiveMQ 5, incorporando a doação do código base HornetQ da Red Hat, e trazendo a implementação JMS do broker à especificação 2.0.
+Assim, a Red Hat tem controle substancial do projeto devido à sua antiga propriedade do código-base.

@@ -44,19 +44,16 @@ public class Worker implements Runnable {
                 if (message instanceof TextMessage) {
                     String linha = ((TextMessage) message).getText();
 
-//                    if ("POISON_PILL".equals(linha)) {
-//                        dashboardGUI.appendLog("Worker " + workerId + " recebeu o sinal de finalização.");
-//                        break; // Sai do loop
-//                    }
-
                     for (String chave : palavrasChave) {
                         int ocorrencias = contarOcorrencias(linha, chave.trim());
                         if (ocorrencias > 0) {
-                            MapMessage mapMsg = session.createMapMessage();
-                            mapMsg.setString("palavra", chave.trim());
-                            mapMsg.setInt("qtd", ocorrencias);
-                            mapMsg.setInt("workerId", workerId);
-                            publisher.send(mapMsg);
+                            for (int i = 0; i < ocorrencias; i++) {
+                                MapMessage mapMsg = session.createMapMessage();
+                                mapMsg.setString("palavra", chave.trim());
+                                mapMsg.setInt("qtd", 1); // Envia 1 por ocorrência
+                                mapMsg.setInt("workerId", workerId);
+                                publisher.send(mapMsg);
+                            }
                         }
                     }
                 }

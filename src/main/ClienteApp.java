@@ -9,8 +9,6 @@ import worker.Worker;
 
 import javax.jms.*;
 import javax.swing.*;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -26,9 +24,8 @@ public class ClienteApp {
                             "TOPICO_CONTAGEM: Aguardando publicação da contagem de palavras."
             );
 
-            // Criar um arquivo para teste
-            String arquivoNome = "arquivo_grande.txt";
-            criarArquivoTeste(arquivoNome, dashboardGUI);
+            // Ler o arquivo grande
+            String arquivoNome = "wiki_active_texto_grande.txt";
 
             // Obter palavras-chave da GUI
             List<String> keywords = Arrays.asList(keywordInput.split(","));
@@ -59,10 +56,6 @@ public class ClienteApp {
             leitor2.join();
             dashboardGUI.appendLog("Leitores de arquivo finalizaram o trabalho.");
 
-            // Enviar "Poison Pill" para os workers
-//            enviarPoisonPills(dashboardGUI);
-//            dashboardGUI.appendLog("Sinal de finalização enviado para os Workers.");
-
             // Aguardar finalização dos workers
             for (Thread workerThread : workerThreads) {
                 workerThread.join();
@@ -77,23 +70,11 @@ public class ClienteApp {
             enviarMensagemFinalizacaoDashboard();
             dashboardGUI.appendLog("Processo concluído com sucesso!");
 
-        } catch (IOException | InterruptedException | JMSException e) {
+        } catch (InterruptedException | JMSException e) {
             e.printStackTrace();
             dashboardGUI.appendLog("ERRO: " + e.getMessage());
         }
     }
-//
-//    private void enviarPoisonPills(DashboardGUI dashboardGUI) throws JMSException {
-//        ConnectionFactory factory = JmsConfig.getConnectionFactory();
-//        try (Connection connection = factory.createConnection();
-//             Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE)) {
-//            Destination destination = session.createQueue(JmsConfig.QUEUE_LINHAS);
-//            MessageProducer producer = session.createProducer(destination);
-//            for (int i = 0; i < NUM_WORKERS; i++) {
-//                producer.send(session.createTextMessage("POISON_PILL"));
-//            }
-//        }
-//    }
 
     private void enviarMensagemFinalizacaoDashboard() throws JMSException {
         ConnectionFactory factory = JmsConfig.getConnectionFactory();
@@ -105,17 +86,6 @@ public class ClienteApp {
             finalizacaoMessage.setBooleanProperty("finalizado", true);
             producer.send(finalizacaoMessage);
         }
-    }
-
-    private void criarArquivoTeste(String nome, DashboardGUI dashboardGUI) throws IOException {
-        dashboardGUI.appendLog("Gerando arquivo de teste '" + nome + "'...");
-        try (FileWriter fw = new FileWriter(nome)) {
-            for (int i = 0; i < 1000; i++) {
-                fw.write("Esta é a linha " + i + " contendo java e talvez mom.\n");
-                fw.write("Outra linha com teste de mom e java.\n");
-            }
-        }
-        dashboardGUI.appendLog("Arquivo de teste gerado.");
     }
 
     public static void main(String[] args) {

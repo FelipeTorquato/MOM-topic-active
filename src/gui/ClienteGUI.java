@@ -23,7 +23,7 @@ public class ClienteGUI extends JFrame {
         formPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
 
-        JLabel infoLabel = new JLabel("Digite as palavras-chave separadas por vírgula (ex: java,mom,teste):");
+        JLabel infoLabel = new JLabel("Digite as palavras-chave separadas por vírgula (ex: Java,JMS,Active):");
         keywordField = new JTextField(30);
         startButton = new JButton("Iniciar Processamento");
 
